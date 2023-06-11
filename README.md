@@ -97,19 +97,16 @@ endmodule
 ```
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
-
-![243101427-16273893-4ae3-4d91-96c2-8d0907f287cb](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/3bfc77e5-3e6a-445a-8fe1-473b1d25331e)
-![243101425-8e514bc5-6212-49e5-91bc-318ee8a6363d](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/155f39dc-acec-4ff3-aed6-c1be8cd13912)
+![244940962-f0616180-d1b8-4105-9458-114f90f14540](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/c9b9bd45-7226-4b9b-bd7a-c40da612bedd)
+![244940981-c9dee762-c267-4e6c-b54b-42ec972ef0b2](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/af903ce9-a3d2-4dd7-b414-89f5fc6c5800)
 
 ### TIMING DIGRAMS FOR COUNTER  
-
-![243101421-cb26f8da-2aa1-4dfb-a549-ce1d392d8596](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/a80c4df6-7cc1-4a9e-869e-6ea728e42506)
-![243101419-8ba6f646-9d15-4889-93e2-063f1c074364](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/3a71fa93-3f90-4c54-9c1b-57147a79c726)
+![244941001-dcea1d7c-4b0d-4a18-93a3-2f80f5069d63](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/7f7e07de-787b-4fc9-b97f-948d6c50a895)
+![244941036-23576a12-285e-4718-ad81-be7dfa57a6bc](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/2da92a8f-cab7-420b-a383-3e14eeef930a)
 
 ### TRUTH TABLE 
-
-![243101418-35121f9e-b814-42d3-94d3-0a5229be708f](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/6080f414-3aff-4bd7-8971-cbc4c17a11a6)
-![243101413-ec48d8d3-01ea-4741-94bc-e4d72a346754](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/8af31ecb-55ba-4e46-9a84-ff3dd3e93e28)
+![244941078-24e97a53-06e1-48d0-8426-6bcf315bfe90](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/8f643956-8ba9-4c4a-9a0f-6c8fb3cea5e0)
+![244941095-8e785645-87d6-4a41-88b6-a88f9c391c41](https://github.com/sivabalan28/Exp-7-Synchornous-counters-/assets/113497347/6acc2c07-f189-4078-b438-10a6bfc893d5)
 
 ### RESULTS 
 Thus, 4 bit up and down counters are implemented and its functionality is validated successfully.
