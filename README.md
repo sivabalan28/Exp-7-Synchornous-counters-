@@ -69,30 +69,29 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: SIVABALAN S
 RegisterNumber:  212222240100
 */
-up :
-module sync(clk,t);
+UPCOUNTER:
+module upc(clk,A);
 input clk;
-output reg [0:2]t;
-always@ (posedge clk)
+output reg[0:3]A;
+always@(posedge clk)
 begin
-t[2]=((t[1]&t[0])^t[2]);
-t[1]=t[0]^t[1];
-t[0]=1^t[0];
+		A[0]=((((A[1])&(A[2]))&A[3])^A[0]);
+		A[1]=(((A[2])&(A[3]))^A[1]);
+		A[2]=((A[3])^A[2]);
+		A[3]=1^A[3];
 end
 endmodule
-down:
-module sync(clk,t);
+
+DOWNCOUNTER:
+module downc(clk,A);
 input clk;
-output reg [0:2]t;
-wire bar2,bar1,bar0;
-not(bar2,t[2]);
-not(bar1,t[1]);
-not(bar0,t[0]);
-always@ (posedge clk)
+output reg[0:3]A;
+always@(posedge clk)
 begin
-t[2]=((bar1&bar0)^t[2]);
-t[1]=bar0^t[1];
-t[0]=1^t[0];
+	A[0]=((((~A[1])&(~A[2]))&A[3])^A[0]);
+	A[1]=(((~A[2])&(~A[3]))^A[1]);
+	A[2]=((~A[3])^A[2]);
+	A[3]=1^A[3];
 end
 endmodule
 ```
